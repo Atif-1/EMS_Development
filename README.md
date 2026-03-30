@@ -2,7 +2,7 @@
 
 ## Description
 
-A comprehensive backend application for managing events, bookings, and users. This Event Management System provides RESTful APIs for creating and managing events, handling user bookings with ticket availability checks, and retrieving booking information. Built with Node.js, Express.js, and Sequelize ORM for MySQL database integration.
+A backend application for managing events, bookings, and users. This Event Management System provides RESTful APIs for creating and managing events, handling user bookings with ticket availability checks, and retrieving booking information. Built with Node.js, Express.js, and Sequelize ORM for MySQL database integration.
 
 ### Key Features
 - Event creation and management
@@ -32,7 +32,7 @@ Before running this application, make sure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Atif-1/EMS_Development
    cd lt_in_assgnmnt
    ```
 
