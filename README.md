@@ -19,6 +19,8 @@ A backend application for managing events, bookings, and users. This Event Manag
 - [API Endpoints](#api-endpoints)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
+- [Live Url](#live-url)
+- 
 
 ## Prerequisites
 
@@ -118,4 +120,7 @@ lt_in_assgnmnt/
 └── validators/
     └── validators.js
 ```
+
+## Live Url
+**https://ems-backend-production-a47e.up.railway.app**
 
