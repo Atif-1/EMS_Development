@@ -32,8 +32,7 @@ Before running this application, make sure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Atif-1/EMS_Development
-   cd lt_in_assgnmnt
+   git clone https://github.com/Atif-1/EMS_Development.git
    ```
 
 2. **Install dependencies:**
@@ -65,42 +64,6 @@ Before running this application, make sure you have the following installed:
 ## Usage
 
 Once the server is running, you can interact with the API using tools like Postman.
-
-### Example API Calls
-
-1. **Get all events:**
-   ```bash
-   curl http://localhost:3000/events
-   ```
-
-2. **Create a new event:**
-   ```bash
-   curl -X POST http://localhost:3000/events \
-     -H "Content-Type: application/json" \
-     -d '{
-       "title": "Tech Conference 2024",
-       "description": "Annual technology conference",
-       "event_date": "2024-06-15T09:00:00Z",
-       "total_capacity": 500,
-       "remaining_tickets": 500
-     }'
-   ```
-
-3. **Create a booking:**
-   ```bash
-   curl -X POST http://localhost:3000/bookings \
-     -H "Content-Type: application/json" \
-     -d '{
-       "user_id": 1,
-       "event_id": 1,
-       "ticket_count": 2
-     }'
-   ```
-
-4. **Get user bookings:**
-   ```bash
-   curl http://localhost:3000/users/1/bookings
-   ```
 
 ### API Documentation
 
